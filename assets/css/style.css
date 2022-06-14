@@ -9,12 +9,7 @@
     opacity: 0;
   }
 }
-/*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10855,6 +10850,26 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .display-3--title {
     font-size: 1.8rem;
+  }
+}
+
+.display-4 {
+  font-family: "Poppins", sans-serif;
+}
+.display-4--title {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 800px) {
+  .display-4--title {
+    font-size: 1.3rem;
   }
 }
 
